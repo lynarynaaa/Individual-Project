@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Us – Nio Lingua Library</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #E6E0F8;
+      color: #311B92;
+    }
+
+    header {
+      background: linear-gradient(135deg, #5E35B1, #7E57C2);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #512DA8;
+      text-align: center;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #512DA8;
+    }
+
+    .contact-form {
+      background: #D1C4E9;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(94, 53, 177, 0.3);
+      margin-bottom: 40px;
+      color: #311B92;
+    }
+
+    .contact-form label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #7E57C2;
+      border-radius: 6px;
+      font-size: 1em;
+      background-color: white;
+      color: #311B92;
+    }
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+      outline: none;
+      border-color: #5E35B1;
+      box-shadow: 0 0 5px #5E35B1;
+    }
+
+    .contact-form button {
+      margin-top: 20px;
+      background-color: #7E57C2;
+      color: white;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1em;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .contact-form button:hover {
+      background-color: #5E35B1;
+    }
+
+    .info-box {
+      background: #EDE7F6;
+      border-radius: 10px;
+      padding: 25px;
+      box-shadow: 0 0 8px rgba(94, 53, 177, 0.2);
+      color: #4527A0;
+    }
+
+    .info-box p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background-color: #F3E5F5;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #4A148C;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Contact Us</h1>
+    <p>I’m here to help you connect, learn, and grow.</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Index</a>
+    <a href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+    <a href="review.html">Review</a>
+    <a href="service.html">Service</a>
+  </nav>
+
+  <section>
+    <div class="contact-form">
+      <h2>Send Us a Message</h2>
+      <form action="#" method="post">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Your Email</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <div class="info-box">
+      <h2>Library Contact</h2>
+      <p><strong>Phone:</strong> +60 3-1234 5678</p>
+      <p><strong>Opening Hours:</strong><br>
+         Mon – Fri: 9:00 AM – 8:00 PM<br>
+         Sat – Sun: 10:00 AM – 6:00 PM</p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 – Empowering Minds Through Language
+  </footer>
+
+</body>
+</html>
+
